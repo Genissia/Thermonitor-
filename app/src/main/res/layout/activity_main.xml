@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/thermonitor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backo"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingTop="600px"
+        android:layout_marginLeft="40px"
+        android:hint="Email"
+        android:textColor="#fff"
+        />
+
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText6"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingTop="650px"
+
+        android:textColor="#fff"
+
+        />
+
+    <Button
+        android:id="@+id/buttony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:background="#002e4d"
+
+        />
+
+
+</RelativeLayout>
